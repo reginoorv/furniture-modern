@@ -51,7 +51,7 @@ export default function Header() {
       >
         <div className="logo font-semibold tracking-wide text-lg md:text-xl relative z-20">
           <Link href="/" className="text-text-dark hover:text-wood-light transition-colors">
-            HARMONY HOUSE
+            FURNITURE MODERN
           </Link>
         </div>
         

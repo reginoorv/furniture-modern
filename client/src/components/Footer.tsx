@@ -35,7 +35,7 @@ export default function Footer() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
         <div className="fade-in">
-          <h3 className="text-lg font-medium mb-4 text-wood">HARMONY HOUSE</h3>
+          <h3 className="text-lg font-medium mb-4 text-wood">FURNITURE MODERN</h3>
           <p className="max-w-md text-sm text-text mb-4">
             Studio desain interior yang fokus pada kenyamanan, keindahan, dan fungsionalitas untuk menciptakan ruang yang mencerminkan kepribadian Anda.
           </p>
@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="space-y-3">
             <div className="flex items-center">
               <Mail className="w-5 h-5 text-wood-light mr-2" />
-              <p>hello@harmonyhouse.id</p>
+              <p>hello@furnituremodern.id</p>
             </div>
             <div className="flex space-x-4 mt-4">
               <a 
@@ -109,7 +109,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="mt-4 md:mt-0">
-          <p>&copy; {new Date().getFullYear()} HARMONY HOUSE. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} FURNITURE MODERN. Hak Cipta Dilindungi.</p>
         </div>
       </div>
       

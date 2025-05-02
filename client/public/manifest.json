@@ -1,0 +1,22 @@
+{
+  "name": "FURNITURE MODERN - Studio Desain Interior",
+  "short_name": "FURNITURE MODERN",
+  "description": "Studio desain interior yang fokus pada kenyamanan, keindahan, dan fungsionalitas untuk menciptakan ruang yang mencerminkan kepribadian Anda.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#B76E3A",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "FURNITURE MODERN",
+  "description": "Studio desain interior yang fokus pada kenyamanan, keindahan, dan fungsionalitas untuk menciptakan ruang yang mencerminkan kepribadian Anda.",
+  "url": "https://furnituremodern.id",
+  "logo": "https://furnituremodern.id/favicon.svg",
+  "image": "https://furnituremodern.id/og-image.svg",
+  "telephone": "+62123456789",
+  "email": "hello@furnituremodern.id",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Sudirman No. 123",
+    "addressLocality": "Jakarta",
+    "postalCode": "10150",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.1751,
+    "longitude": 106.8650
+  },
+  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+  "priceRange": "$$",
+  "sameAs": [
+    "https://instagram.com/furnituremodern",
+    "https://facebook.com/furnituremodern"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Layanan Desain Interior",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Layanan Perencanaan",
+          "description": "Membuat perencanaan teknis-desain proyek interior berdasarkan pengukuran ruangan, penempatan objek komunikasi, pengembangan konsep warna dan tekstur, pemilihan material dan penyelesaian pekerjaan di lokasi.",
+          "url": "https://furnituremodern.id/layanan/perencanaan"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Layanan Perlengkapan",
+          "description": "Perlengkapan proyek dari awal hingga akhir. Tim kami bekerja dengan tekstil, furnitur, pencahayaan, peralatan rumah tangga, pemanas dan penyejuk udara, material dan perlengkapan mandi.",
+          "url": "https://furnituremodern.id/layanan/perlengkapan"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Proyek Desain",
+          "description": "Membuat dokumen terperinci dan komprehensif dengan visualisasi fotorealistik untuk implementasi desain interior Anda.",
+          "url": "https://furnituremodern.id/layanan/proyek-desain"
+        }
+      }
+    ]
+  }
+}

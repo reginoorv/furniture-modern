@@ -35,6 +35,7 @@
     <link rel="canonical" href="https://furnituremodern.id" />
     
     <!-- Mobile Web App -->
+    <link rel="manifest" href="/manifest.json" />
     <meta name="application-name" content="FURNITURE MODERN" />
     <meta name="theme-color" content="#B76E3A" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -46,5 +47,61 @@
     <script type="module" src="/src/main.tsx"></script>
     <!-- This script injects a replit badge into the page, please feel free to remove this line -->
     <script type="text/javascript" src="https://replit.com/public/js/replit-badge-v3.js"></script>
+    
+    <!-- Schema.org JSON-LD for Rich Results -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "FURNITURE MODERN",
+        "description": "Studio desain interior yang fokus pada kenyamanan, keindahan, dan fungsionalitas untuk menciptakan ruang yang mencerminkan kepribadian Anda.",
+        "url": "https://furnituremodern.id",
+        "logo": "https://furnituremodern.id/favicon.svg",
+        "image": "https://furnituremodern.id/og-image.svg",
+        "telephone": "+62123456789",
+        "email": "hello@furnituremodern.id",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jalan Sudirman No. 123",
+          "addressLocality": "Jakarta",
+          "postalCode": "10150",
+          "addressCountry": "ID"
+        },
+        "sameAs": [
+          "https://instagram.com/furnituremodern",
+          "https://facebook.com/furnituremodern"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Layanan Desain Interior",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Layanan Perencanaan",
+                "url": "https://furnituremodern.id/layanan/perencanaan"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Layanan Perlengkapan",
+                "url": "https://furnituremodern.id/layanan/perlengkapan"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Proyek Desain",
+                "url": "https://furnituremodern.id/layanan/proyek-desain"
+              }
+            }
+          ]
+        }
+      }
+    </script>
   </body>
 </html>

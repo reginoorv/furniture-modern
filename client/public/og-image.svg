@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F8F8F8"/>
+  <rect width="1200" height="80" fill="#B76E3A"/>
+  <rect y="550" width="1200" height="80" fill="#B76E3A"/>
+  
+  <!-- Main Text -->
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#333333">FURNITURE MODERN</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#666666">Studio Desain Interior Profesional</text>
+
+  <!-- Decorative elements -->
+  <rect x="300" y="420" width="600" height="5" fill="#B76E3A"/>
+  
+  <!-- Logo elements -->
+  <rect x="350" y="150" width="500" height="20" fill="#B76E3A"/>
+  <rect x="350" y="190" width="500" height="20" fill="#B76E3A"/>
+</svg>

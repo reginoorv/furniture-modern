@@ -1,6 +1,7 @@
 import { IMAGES } from "@/assets/images";
 import { ArrowRight } from "lucide-react";
 import { useEffect, useRef } from "react";
+import { Link } from "wouter";
 
 interface Service {
   id: number;
@@ -78,22 +79,25 @@ function ServiceCard({ service, index }: ServiceCardProps) {
         <p className="text-text">
           {service.description}
         </p>
-        <a 
-          href={`#${service.slug}`} 
+        <Link 
+          href={`/layanan/${service.slug}`} 
           className="inline-flex items-center text-sm group mt-2"
         >
           <span className="group-hover:text-wood-light transition-colors">Selengkapnya</span>
           <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 text-wood-light" />
-        </a>
+        </Link>
       </div>
-      <div className="md:w-1/3 order-1 md:order-2 image-scale">
+      <Link 
+        href={`/layanan/${service.slug}`}
+        className="md:w-1/3 order-1 md:order-2 image-scale block"
+      >
         <img 
           src={service.image} 
           alt={service.title} 
           className="rounded-lg w-full h-auto object-cover shadow-md"
           loading="lazy"
         />
-      </div>
+      </Link>
     </div>
   );
 }

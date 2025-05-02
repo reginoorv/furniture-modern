@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import { useEffect } from "react";
 
 export default function Home() {
-  // Implement smooth scrolling for anchor links
+  // Implement smooth scrolling for anchor links with header offset
   useEffect(() => {
     const handleAnchorClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
@@ -20,9 +20,14 @@ export default function Home() {
         
         const targetElement = document.querySelector(link.hash);
         if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+          // Get header height for offset
+          const headerHeight = 80; // Approximate header height
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
           });
         }
       }
@@ -38,7 +43,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main>
+      <main className="flex-grow">
         <HeroSection />
         <IntroductionSection />
         <StatsSection />
